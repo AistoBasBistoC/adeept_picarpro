@@ -38,7 +38,7 @@ G_sc.start()
     def grabObj():
         armDown()
         time.sleep(1)
-        srmStop()
+        armStop()
         time.sleep(0.5)
         grab()
         time.sleep(2)
