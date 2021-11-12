@@ -32,21 +32,21 @@ G_sc.start()
 
 
 # test arm move down, grab, arm move up, release (1 sec delays)
-T_sc.singleServo(2, -1, 3)
+T_sc.singleServo(2, -1, 3)  # arm moves down
 time.sleep(1)
-T_sc.singleServo(2, -1, 0)
+T_sc.singleServo(2, -1, 0)  # arm stops moving
 time.sleep(1)
-G_sc.singleServo(4, -1, 3)
+G_sc.singleServo(4, -1, 3)  # grabber grabs
 time.sleep(1)
-G_sc.singleServo(4, -1, 0)
+G_sc.singleServo(4, -1, 0)  # grabber stops
 time.sleep(1)
-T_sc.singleServo(2, 1, 3)
+T_sc.singleServo(2, 1, 3)  # arm moves up
 time.sleep(1)
-T_sc.singleServo(2, 1, 0)
+T_sc.singleServo(2, 1, 0)  # arm stops
 time.sleep(1)
-G_sc.singleServo(4, 1, 3)
+G_sc.singleServo(4, 1, 3)  # grabber releases
 time.sleep(1)
-G_sc.singleServo(4, 1, 0)
+G_sc.singleServo(4, 1, 0)  # grabber stops
 time.sleep(1)
 
 
