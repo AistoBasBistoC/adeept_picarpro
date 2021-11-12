@@ -17,6 +17,7 @@ T_sc.start()
 G_sc = RPIservo.ServoCtrl()
 G_sc.start()
 
+
 	
 	# Arm movement + grab declarations
     def armUP():
