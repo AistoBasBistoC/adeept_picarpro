@@ -31,6 +31,7 @@ G_sc.start()
         G_sc.singleServo(4, 1, 3)  #loosen
     def grabStop():
         G_sc.singleServo(4, 1, 0)  #stop grab
+
     
     # Grab object function
     def grabObj():
